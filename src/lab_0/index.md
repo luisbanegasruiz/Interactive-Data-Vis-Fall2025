@@ -5,10 +5,12 @@ toc: true
 
 This page is where you can iterate. Follow the lab instructions in the [readme.md](./README.md).
 
-# Gender Differences in the Immigration Enforcement Pipeline
-#### Latino Men Comprise the Largest Share of ICE Arrests Between 2023 and 2025
+# Gender, Enforcement, and Power in US Immigration Policy 
+## Trends in ICE Apprehensions Between 2023 and 2025
 
-##### Welcome! This website includes up-to-date information about gender differences in immigration enforcement
+
+##### Welcome to my first lab! I'm Luis, a PhD student in sociology at the CUNY Graduate Center. This project explores how gender shapes outcomes in the US immigration enforcement pipeline. Using recent ICE apprehension data, I analyze who is arrested, how cases move through the system, and whether enforcement patterns differ between men and women. Below, you'll find an interactive table and visualizations from my statistical analysis. 
+
 
 
 <!DOCTYPE html>
@@ -121,6 +123,7 @@ This page is where you can iterate. Follow the lab instructions in the [readme.m
 </body>
 </html>
 
+# Conclusions
 <ul>
   <li>Mexican nationals have the highest total arrests (2023–2025).</li>
   <li>Men account for most arrests across all top countries.</li>
@@ -128,7 +131,7 @@ This page is where you can iterate. Follow the lab instructions in the [readme.m
 </ul>
 
 
-
+# Instagram Picture Attached
 <div style="margin-top:20px; text-align:center;">
   <blockquote class="instagram-media"
     data-instgrm-permalink="https://www.instagram.com/p/DSnl0UtEzlx/"
@@ -137,8 +140,37 @@ This page is where you can iterate. Follow the lab instructions in the [readme.m
 </div>
 
 <script async src="https://www.instagram.com/embed.js"></script>
+<div class="source">
+  <p><strong>Source:</strong> The Guardian.</p>
+  <p><strong>Code Source:</strong> 
+    <a href="https://www.commoninja.com/blog/providing-sample-html-code-for-manually-embedding-instagram-feeds#Sample-HTML-Code-for-an-Instagram-Feed-Widget" target="_blank">
+      https://www.commoninja.com/blog/providing-sample-html-code-for-manually-embedding-instagram-feeds#Sample-HTML-Code-for-an-Instagram-Feed-Widget
+    </a>
+  </p>
+</div>
+</body>
+</html>
 
-
-## My Image
+# Fun Fact: Did you know that in the wild, orangutan babies learn necessary survival skills by observing their mothers? They have one of the longest interbirth intervals of any mammal. 
+## This is Jambi the Orangutan. I met her at the Philly Zoo last year. 
 
 <img src="./IMG_8351.jpg" width="400">
+
+## Interactive Element
+
+```js
+import * as Inputs from "npm:@observablehq/inputs";
+
+// Create a dropdown input using view()
+const topic = view(
+  Inputs.select(
+    ["ICE Arrests", "Court Outcomes", "Detainers"],
+    {
+      label: "Choose topic:",
+      value: "ICE Arrests"
+    }
+  )
+);
+
+// Display a visible reference that changes
+html`<h3>You selected: <strong>${topic}</strong></h3>`
