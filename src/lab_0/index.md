@@ -139,3 +139,6 @@ This page is where you can iterate. Follow the lab instructions in the [readme.m
 <script async src="https://www.instagram.com/embed.js"></script>
 
 
+## My Image
+
+<img src="./IMG_8351.jpg" width="400">
