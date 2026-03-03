@@ -2,9 +2,6 @@
 title: "Lab 0: Getting Started"
 toc: true
 ---
-
-This page is where you can iterate. Follow the lab instructions in the [readme.md](./README.md).
-
 # Gender, Enforcement, and Power in US Immigration Policy 
 ## Trends in ICE Apprehensions Between 2023 and 2025
 
