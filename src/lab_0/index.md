@@ -152,7 +152,7 @@ This page is where you can iterate. Follow the lab instructions in the [readme.m
 </html>
 
 # Fun Fact: Did you know that in the wild, orangutan babies learn necessary survival skills by observing their mothers? They have one of the longest interbirth intervals of any mammal. 
-## This is Jambi the Orangutan. I met her at the Philly Zoo last year. 
+## This is Jambi the Orangutan. I met him at the Philly Zoo last year. 
 
 <img src="./IMG_8351.jpg" width="400">
 
